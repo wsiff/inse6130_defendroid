@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Defendroid</string>
+    <string name="usb_data_signaling">USB data signaling</string>
+    <string name="usb_data_signaling_description">When disabled, USB data connections (except from charging functions) are prohibited.</string>
+    <string name="usb_data_signaling_ctl">Controller</string>
+    <string name="usb_data_signaling_ctl_description">Turn USB data signaling OFF on screen off and turn it ON on unlock.</string>
+    <string name="usb_data_signaling_change_failed_popup">Failed to change USB data signaling policy</string>
+    <string name="max_failed_password_attempts_helper_text">Maximum number of failed password attempts.</string>
+    <string name="max_failed_password_attempts_hint">number</string>
+    <string name="max_failed_password_attempts_default_api">Default API</string>
+    <string name="max_failed_password_attempts_default_api_description">Use default Android API. It may show X attempts left, but will work in safe boot mode.</string>
+    <string name="authentication">Authentication</string>
+    <string name="main">Main</string>
+    <string name="monitor">Monitor</string>
+    <string name="monitor_password">Password</string>
+    <string name="monitor_password_description">On failed password attempt you will get a notification.</string>
+    <string name="monitor_internet">Internet</string>
+    <string name="monitor_internet_description">If any app will get INTERNET permission after an update you will get a notification.</string>
+    <string name="notification_title">ALERT</string>
+    <string name="notification_password_text">Failed password attempt detected!</string>
+    <string name="notification_internet_text">%1$s (%2$s) has got INTERNET permission!</string>
+    <string name="unknown_app">An unknown app</string>
+    <string name="goto_button">GOTO</string>
+    <string name="panic_app_dialog_title">Confirm panic app</string>
+    <string name="panic_app_dialog_message">Are you sure you want to allow %1$s to trigger destructive panic actions\?</string>
+    <string name="panic_app_unknown_app">an unknown app</string>
+    <string name="allow">Allow</string>
+    <string name="user_restrictions">User Restrictions</string>
+    <string name="user_restrictions_safe_boot">Safe mode</string>
+    <string name="user_restrictions_safe_boot_description">Specifies if the user is not allowed to reboot the device into safe boot mode.</string>
+</resources>
